@@ -1,3 +1,8 @@
+/*  Create an array of size n dynamically, input the elements of the array,
+*	sum them and print the sum of the elements in a new line.
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -6,7 +11,7 @@ void fill_array(int *arr, int n) {
 	int i;
 
 	for (i = 0; i < n; i++) {
-		scanf("%d", &arr[i]);
+		scanf("%d", arr + i);
 	}
 }
 
@@ -15,7 +20,7 @@ int sum_array_elements(int *arr, int n) {
 	int i, sum = 0;
 
 	for (i = 0; i < n; i++) {
-		sum += arr[i];
+		sum += *(arr + i);
 	}
 
 	return sum;
