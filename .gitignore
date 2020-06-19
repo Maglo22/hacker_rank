@@ -1,0 +1,7 @@
+# vscode settings
+.vscode
+
+# build files
+build/
+*.obj
+*.pdb
