@@ -1,5 +1,13 @@
-/*  Create an array of size n dynamically, input the elements of the array,
-*	sum them and print the sum of the elements in a new line.
+/*
+	Create an array of size n dynamically, input the elements of the array,
+	sum them and print the sum of the elements in a new line.
+
+	Sample Input:
+	6
+	16 13 7 2 1 12
+
+	Sample Output:
+	51
 */
 
 

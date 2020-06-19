@@ -1,4 +1,13 @@
-/* Given an array, of size n, reverse it. */
+/*
+    Given an array, of size n, reverse it.
+
+    Sample Input:
+    6
+    16 13 7 2 1 12
+
+    Sample Output:
+    12 1 2 7 13 16 
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
