@@ -47,5 +47,7 @@ int main() {
 
 	printf("%d", res);
 
+	free(arr); // free memory
+
 	return 0;
 }

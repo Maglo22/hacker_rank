@@ -45,5 +45,7 @@ int main() {
         }
     }
 
+    free(s); // free memory
+
     return 0;
 }

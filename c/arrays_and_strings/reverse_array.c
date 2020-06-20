@@ -56,5 +56,7 @@ int main() {
 
     print_array(arr, n); // print to console
 
+    free(arr); // free memory
+
     return 0;
 }
