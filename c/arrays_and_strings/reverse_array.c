@@ -35,10 +35,13 @@ void reverse_array(int* arr, int n) {
     int i, j = n - 1;
     int temp;
 
+    // loop only half the lenght, since we use two iterators:
+    // one that increments from left-most to middle, and the other
+    // that decrements from right-most to middle
     for (i = 0; i < (n / 2); i++) {
         temp = *(arr + i);
-        *(arr + i) = *(arr + j);
-        *(arr + j) = temp;
+        *(arr + i) = *(arr + j); // set current left element with current right one
+        *(arr + j) = temp; // set current right element with current left one (stored in temp)
         j--;
     }
 }
